@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This is a site used for downloading applications easily">
+  <title>Aman App Hub</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900 font-sans">
+
+  <header class="bg-blue-600 text-white p-6 shadow-md">
+    <div class="container mx-auto">
+      <h1 class="text-3xl font-bold">Aman App Hub</h1>
+      <p class="text-lg">Download your favorite applications easily</p>
+    </div>
+  </header>
+
+  <main class="container mx-auto px-4 py-10">
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+      <!-- App 1 -->
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <img src="https://via.placeholder.com/300x150.png?text=App+1+Screenshot" alt="App 1 Screenshot" class="mb-4 rounded">
+        <h2 class="text-xl font-semibold mb-2">App One</h2>
+        <p class="mb-4">This is a description of the first app. It is simple and easy to use.</p>
+        <a href="https://drive.google.com/drive/u/0/folders/15w6PIaqfAn0IzJSWSxt7Mfx2o7FFIkGr" target="_blank" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
+          Download App One
+        </a>
+      </div>
+
+      <!-- App 2 -->
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <img src="https://via.placeholder.com/300x150.png?text=App+2+Screenshot" alt="App 2 Screenshot" class="mb-4 rounded">
+        <h2 class="text-xl font-semibold mb-2">App Two</h2>
+        <p class="mb-4">Another great app available for download. Try it now!</p>
+        <a href="https://drive.google.com/drive/folders/YOUR_SECOND_APP_FOLDER" target="_blank" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
+          Download App Two
+        </a>
+      </div>
+
+      <!-- Add more apps here -->
+
+    </section>
+
+    <!-- Contact Form -->
+    <section class="mt-10 bg-white p-6 rounded-lg shadow-md">
+      <h2 class="text-2xl font-semibold mb-4">Contact Us</h2>
+      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="space-y-4">
+        <input type="text" name="name" placeholder="Your Name" required class="w-full p-2 border rounded">
+        <input type="email" name="email" placeholder="Your Email" required class="w-full p-2 border rounded">
+        <textarea name="message" rows="4" placeholder="Your Message" required class="w-full p-2 border rounded"></textarea>
+        <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
+          Send Message
+        </button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="bg-gray-200 text-center text-sm text-gray-600 py-4 mt-10">
+    <p>&copy; 2025 Amanuel Apps. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
